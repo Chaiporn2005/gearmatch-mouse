@@ -9,13 +9,11 @@ import {
   Sparkles,
   X,
   Plus,
-  Activity,
-  ShieldCheck,
-  BookOpen,
   LoaderCircle,
   RotateCcw,
   Search,
 } from "lucide-react";
+import { MouseHero } from "@/components/mouse-hero";
 type P = {
   id: string;
   name: string;
@@ -219,7 +217,7 @@ export default function Home() {
       <header>
         <a className="brand" href="/">
           <span className="brand-icon">
-            <Mouse size={21} />
+            <Mouse size={16} />
           </span>
           Gear<span>Match</span>
           <small>MOUSE LAB</small>
@@ -228,7 +226,7 @@ export default function Home() {
           {["discover", "compare", "about"].map((v) => (
             <button
               key={v}
-              className={view === v ? "active" : ""}
+              className={"link" + (view === v ? " active" : "")}
               onClick={() => setView(v)}
             >
               {v === "discover"
@@ -249,63 +247,8 @@ export default function Home() {
       <main>
         {view === "discover" ? (
           <>
-            <section className="hero">
-              <div>
-                <div className="eyebrow">
-                  <i />
-                  LESS GUESSWORK. BETTER GEAR.
-                </div>
-                <h1>
-                  Your next mouse.
-                  <br />
-                  <em>A better match.</em>
-                </h1>
-                <p>
-                  เมาส์ที่ใช่ เริ่มจากสิ่งที่คุณต้องการ
-                  <br />
-                  ค้นหา เปรียบเทียบ และเลือกจากสเปกที่มีแหล่งอ้างอิงจริง
-                </p>
-                <div className="hero-badges">
-                  <span>
-                    <ShieldCheck size={14} />
-                    Source-grounded
-                  </span>
-                  <span>
-                    <Activity size={14} />
-                    21 curated mice
-                  </span>
-                  <span>
-                    <BookOpen size={14} />
-                    Reference USD prices
-                  </span>
-                </div>
-              </div>
-              <div className="hero-art">
-                <div className="orbit" />
-                <div className="orbit two" />
-                <span className="cross a">+</span>
-                <span className="cross b">+</span>
-                {products.length > 0 && (
-                  <Art
-                    large
-                    p={
-                      products.find((p) => p.id === "keychron-m2-4k") ||
-                      products[0]
-                    }
-                  />
-                )}
-                <div className="weight-badge">
-                  55<span>g</span>
-                  <small>LIGHTER BY DESIGN</small>
-                </div>
-                <div className="workflow">
-                  <i />
-                  Built for your workflow
-                </div>
-                <span className="caption">FIND YOUR EVERYDAY ADVANTAGE ↗</span>
-              </div>
-            </section>
-            <div className="workspace">
+            <MouseHero count={products.length || 21} />
+            <div className="workspace" id="workspace">
               <aside>
                 <div className="assistant-head">
                   <span>
@@ -584,7 +527,11 @@ export default function Home() {
                 )}
                 <div className="product-grid">
                   {visible.map((p, i) => (
-                    <article className="card" key={p.id}>
+                    <article
+                      className="card"
+                      key={p.id}
+                      style={{ "--i": Math.min(i, 8) } as React.CSSProperties}
+                    >
                       <div className={"product-image tone" + (i % 4)}>
                         <span className="tag">
                           {p.features.includes("quiet_clicks")

@@ -16,3 +16,4 @@ docs/rendered/
 site/.dev.vars*
 site/.tsbuildinfo
 site/tsconfig.tsbuildinfo
+.DS_Store
