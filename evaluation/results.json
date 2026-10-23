@@ -1,0 +1,1496 @@
+{
+  "dataset_sha256": "0069422df339c92d3af54e76cdb4571d336bd4a99e28a23fea9d6b03806f9100",
+  "catalog_sha256": "64d3f5aa4fde19765ca673d0b703e2186297850d6bb0ae5ae88593ed17cdab04",
+  "python": "3.12.14",
+  "protocol": "Author-curated 20 dev / 10 held-out examples. No tuning on held-out labels. Corpus-sized lexical-vector evaluation, not LLM answer quality. Baseline intentionally ignores metadata filters; filtered BM25 isolates this factor. No claim of statistical significance.",
+  "systems": {
+    "bm25": {
+      "all": {
+        "n": 30,
+        "answerable_n": 24,
+        "unanswerable_n": 6,
+        "recall_at_3": 0.8125,
+        "mrr_at_3": 0.7708333333333334,
+        "constraint_violations": 43,
+        "abstention_accuracy": 0.16666666666666666
+      },
+      "dev": {
+        "n": 20,
+        "answerable_n": 16,
+        "unanswerable_n": 4,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 0.9375,
+        "constraint_violations": 32,
+        "abstention_accuracy": 0.25
+      },
+      "test": {
+        "n": 10,
+        "answerable_n": 8,
+        "unanswerable_n": 2,
+        "recall_at_3": 0.4375,
+        "mrr_at_3": 0.4375,
+        "constraint_violations": 11,
+        "abstention_accuracy": 0.0
+      },
+      "cases": [
+        {
+          "id": "d01",
+          "split": "dev",
+          "query": "USB wired office mouse under 10",
+          "expected": [
+            "logitech-m100"
+          ],
+          "retrieved": [
+            "logitech-m100",
+            "logitech-mx-vertical",
+            "keychron-m4-4k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 2,
+          "abstention_correct": null
+        },
+        {
+          "id": "d02",
+          "split": "dev",
+          "query": "compact receiver mouse for travel",
+          "expected": [
+            "logitech-m170"
+          ],
+          "retrieved": [
+            "logitech-m185",
+            "logitech-m170",
+            "logitech-mx-vertical"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 0.5,
+          "constraint_violations": 2,
+          "abstention_correct": null
+        },
+        {
+          "id": "d03",
+          "split": "dev",
+          "query": "quiet Bluetooth compact mouse",
+          "expected": [
+            "logitech-pebble-2-m350s"
+          ],
+          "retrieved": [
+            "logitech-pebble-2-m350s",
+            "logitech-m170",
+            "logitech-m185"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 2,
+          "abstention_correct": null
+        },
+        {
+          "id": "d04",
+          "split": "dev",
+          "query": "left handed vertical office mouse",
+          "expected": [
+            "logitech-lift-left"
+          ],
+          "retrieved": [
+            "logitech-lift-left",
+            "logitech-mx-vertical",
+            "logitech-lift"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 2,
+          "abstention_correct": null
+        },
+        {
+          "id": "d05",
+          "split": "dev",
+          "query": "right handed vertical small medium hands",
+          "expected": [
+            "logitech-lift"
+          ],
+          "retrieved": [
+            "logitech-lift",
+            "logitech-lift-left",
+            "logitech-mx-vertical"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 2,
+          "abstention_correct": null
+        },
+        {
+          "id": "d06",
+          "split": "dev",
+          "query": "lightweight gaming 50 gram mouse",
+          "expected": [
+            "keychron-m2-mini-8k"
+          ],
+          "retrieved": [
+            "keychron-m2-mini-8k",
+            "logitech-g203",
+            "logitech-g305"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 2,
+          "abstention_correct": null
+        },
+        {
+          "id": "d07",
+          "split": "dev",
+          "query": "RGB wired gaming mouse",
+          "expected": [
+            "logitech-g203",
+            "razer-cobra"
+          ],
+          "retrieved": [
+            "logitech-g203",
+            "logitech-g502-hero",
+            "razer-cobra"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 1,
+          "abstention_correct": null
+        },
+        {
+          "id": "d08",
+          "split": "dev",
+          "query": "G305 HERO LIGHTSPEED AA battery",
+          "expected": [
+            "logitech-g305"
+          ],
+          "retrieved": [
+            "logitech-g305",
+            "logitech-g502-hero",
+            "logitech-m170"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 1,
+          "abstention_correct": null
+        },
+        {
+          "id": "d09",
+          "split": "dev",
+          "query": "quiet horizontal scroll metal wheel mouse",
+          "expected": [
+            "keychron-m6-silent-1k"
+          ],
+          "retrieved": [
+            "keychron-m6-silent-1k",
+            "keychron-m5-8k",
+            "logitech-m720"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 1,
+          "abstention_correct": null
+        },
+        {
+          "id": "d10",
+          "split": "dev",
+          "query": "M720 Triathlon three device tilt wheel",
+          "expected": [
+            "logitech-m720"
+          ],
+          "retrieved": [
+            "logitech-m720",
+            "logitech-pebble-2-m350s",
+            "keychron-m5-8k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 1,
+          "abstention_correct": null
+        },
+        {
+          "id": "d11",
+          "split": "dev",
+          "query": "MX Vertical medium large hands rechargeable",
+          "expected": [
+            "logitech-mx-vertical"
+          ],
+          "retrieved": [
+            "logitech-mx-vertical",
+            "logitech-lift",
+            "logitech-lift-left"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 1,
+          "abstention_correct": null
+        },
+        {
+          "id": "d12",
+          "split": "dev",
+          "query": "compact mini gaming mouse onboard profiles",
+          "expected": [
+            "keychron-m2-mini-8k",
+            "keychron-m3-mini-8k"
+          ],
+          "retrieved": [
+            "keychron-m3-mini-8k",
+            "logitech-g502-hero",
+            "keychron-m2-mini-8k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 1,
+          "abstention_correct": null
+        },
+        {
+          "id": "d13",
+          "split": "dev",
+          "query": "4000 Hz PixArt 3395 gaming",
+          "expected": [
+            "keychron-m2-4k"
+          ],
+          "retrieved": [
+            "keychron-m2-4k",
+            "keychron-m4-4k",
+            "keychron-m1-wireless"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 2,
+          "abstention_correct": null
+        },
+        {
+          "id": "d14",
+          "split": "dev",
+          "query": "M6 All Silent Premium Wheel 86 g",
+          "expected": [
+            "keychron-m6-silent-1k"
+          ],
+          "retrieved": [
+            "keychron-m6-silent-1k",
+            "keychron-m5-8k",
+            "logitech-m720"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 1,
+          "abstention_correct": null
+        },
+        {
+          "id": "d15",
+          "split": "dev",
+          "query": "glass tracking PixArt 3950",
+          "expected": [
+            "keychron-m2-mini-8k",
+            "keychron-m7-8k"
+          ],
+          "retrieved": [
+            "keychron-m7-8k",
+            "keychron-m2-mini-8k",
+            "keychron-m2-4k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d16",
+          "split": "dev",
+          "query": "ambidextrous Bluetooth travel",
+          "expected": [
+            "logitech-pebble-2-m350s"
+          ],
+          "retrieved": [
+            "logitech-m170",
+            "logitech-pebble-2-m350s",
+            "logitech-m185"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 0.5,
+          "constraint_violations": 2,
+          "abstention_correct": null
+        },
+        {
+          "id": "d17",
+          "split": "dev",
+          "query": "Bluetooth office mouse",
+          "expected": [],
+          "retrieved": [
+            "logitech-m170",
+            "logitech-m720",
+            "keychron-m4-4k"
+          ],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 3,
+          "abstention_correct": false
+        },
+        {
+          "id": "d18",
+          "split": "dev",
+          "query": "left handed gaming mouse",
+          "expected": [],
+          "retrieved": [
+            "logitech-lift-left",
+            "razer-cobra",
+            "logitech-m720"
+          ],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 3,
+          "abstention_correct": false
+        },
+        {
+          "id": "d19",
+          "split": "dev",
+          "query": "mechanical keyboard keycaps",
+          "expected": [],
+          "retrieved": [],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 0,
+          "abstention_correct": true
+        },
+        {
+          "id": "d20",
+          "split": "dev",
+          "query": "left handed ultralight mouse",
+          "expected": [],
+          "retrieved": [
+            "logitech-lift-left",
+            "razer-cobra",
+            "logitech-m720"
+          ],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 3,
+          "abstention_correct": false
+        },
+        {
+          "id": "t01",
+          "split": "test",
+          "query": "เมาส์เงียบ ใช้บลูทูธ ทำงาน",
+          "expected": [
+            "logitech-pebble-2-m350s"
+          ],
+          "retrieved": [],
+          "recall_at_3": 0.0,
+          "reciprocal_rank": 0.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t02",
+          "split": "test",
+          "query": "น้ำหนักเบา เล่นเกม",
+          "expected": [
+            "keychron-m2-4k",
+            "keychron-m2-mini-8k",
+            "keychron-m3-mini-8k",
+            "razer-cobra"
+          ],
+          "retrieved": [],
+          "recall_at_3": 0.0,
+          "reciprocal_rank": 0.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t03",
+          "split": "test",
+          "query": "แนวตั้ง มือซ้าย",
+          "expected": [
+            "logitech-lift-left"
+          ],
+          "retrieved": [],
+          "recall_at_3": 0.0,
+          "reciprocal_rank": 0.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t04",
+          "split": "test",
+          "query": "พกพา ไร้สาย",
+          "expected": [
+            "logitech-m170",
+            "logitech-m185"
+          ],
+          "retrieved": [],
+          "recall_at_3": 0.0,
+          "reciprocal_rank": 0.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t05",
+          "split": "test",
+          "query": "เมาส์มีสาย RGB",
+          "expected": [
+            "logitech-g203",
+            "razer-cobra"
+          ],
+          "retrieved": [
+            "keychron-m1-wireless",
+            "logitech-g203",
+            "logitech-g502-hero"
+          ],
+          "recall_at_3": 0.5,
+          "reciprocal_rank": 0.5,
+          "constraint_violations": 2,
+          "abstention_correct": null
+        },
+        {
+          "id": "t06",
+          "split": "test",
+          "query": "silent side wheel office productivity",
+          "expected": [
+            "keychron-m6-silent-1k"
+          ],
+          "retrieved": [
+            "keychron-m6-silent-1k",
+            "keychron-m5-8k",
+            "logitech-m720"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 1,
+          "abstention_correct": null
+        },
+        {
+          "id": "t07",
+          "split": "test",
+          "query": "M2 Mini 8K glass 50g",
+          "expected": [
+            "keychron-m2-mini-8k"
+          ],
+          "retrieved": [
+            "keychron-m2-mini-8k",
+            "keychron-m3-mini-8k",
+            "keychron-m7-8k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t08",
+          "split": "test",
+          "query": "Logitech wired 1000 DPI plug play",
+          "expected": [
+            "logitech-m100"
+          ],
+          "retrieved": [
+            "logitech-m100",
+            "logitech-g203",
+            "logitech-g305"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 2,
+          "abstention_correct": null
+        },
+        {
+          "id": "t09",
+          "split": "test",
+          "query": "เมาส์มือซ้าย Bluetooth เบา",
+          "expected": [],
+          "retrieved": [
+            "logitech-lift",
+            "logitech-lift-left",
+            "keychron-m1-wireless"
+          ],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 3,
+          "abstention_correct": false
+        },
+        {
+          "id": "t10",
+          "split": "test",
+          "query": "wireless gaming 8000 Hz mouse",
+          "expected": [],
+          "retrieved": [
+            "logitech-g305",
+            "logitech-g203",
+            "keychron-m1-wireless"
+          ],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 3,
+          "abstention_correct": false
+        }
+      ]
+    },
+    "filtered_bm25": {
+      "all": {
+        "n": 30,
+        "answerable_n": 24,
+        "unanswerable_n": 6,
+        "recall_at_3": 0.8333333333333334,
+        "mrr_at_3": 0.8333333333333334,
+        "constraint_violations": 0,
+        "abstention_accuracy": 1.0
+      },
+      "dev": {
+        "n": 20,
+        "answerable_n": 16,
+        "unanswerable_n": 4,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "constraint_violations": 0,
+        "abstention_accuracy": 1.0
+      },
+      "test": {
+        "n": 10,
+        "answerable_n": 8,
+        "unanswerable_n": 2,
+        "recall_at_3": 0.5,
+        "mrr_at_3": 0.5,
+        "constraint_violations": 0,
+        "abstention_accuracy": 1.0
+      },
+      "cases": [
+        {
+          "id": "d01",
+          "split": "dev",
+          "query": "USB wired office mouse under 10",
+          "expected": [
+            "logitech-m100"
+          ],
+          "retrieved": [
+            "logitech-m100"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d02",
+          "split": "dev",
+          "query": "compact receiver mouse for travel",
+          "expected": [
+            "logitech-m170"
+          ],
+          "retrieved": [
+            "logitech-m170"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d03",
+          "split": "dev",
+          "query": "quiet Bluetooth compact mouse",
+          "expected": [
+            "logitech-pebble-2-m350s"
+          ],
+          "retrieved": [
+            "logitech-pebble-2-m350s"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d04",
+          "split": "dev",
+          "query": "left handed vertical office mouse",
+          "expected": [
+            "logitech-lift-left"
+          ],
+          "retrieved": [
+            "logitech-lift-left"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d05",
+          "split": "dev",
+          "query": "right handed vertical small medium hands",
+          "expected": [
+            "logitech-lift"
+          ],
+          "retrieved": [
+            "logitech-lift",
+            "logitech-m720",
+            "keychron-m2-4k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d06",
+          "split": "dev",
+          "query": "lightweight gaming 50 gram mouse",
+          "expected": [
+            "keychron-m2-mini-8k"
+          ],
+          "retrieved": [
+            "keychron-m2-mini-8k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d07",
+          "split": "dev",
+          "query": "RGB wired gaming mouse",
+          "expected": [
+            "logitech-g203",
+            "razer-cobra"
+          ],
+          "retrieved": [
+            "logitech-g203",
+            "razer-cobra"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d08",
+          "split": "dev",
+          "query": "G305 HERO LIGHTSPEED AA battery",
+          "expected": [
+            "logitech-g305"
+          ],
+          "retrieved": [
+            "logitech-g305",
+            "logitech-m170",
+            "logitech-m185"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d09",
+          "split": "dev",
+          "query": "quiet horizontal scroll metal wheel mouse",
+          "expected": [
+            "keychron-m6-silent-1k"
+          ],
+          "retrieved": [
+            "keychron-m6-silent-1k",
+            "logitech-m720",
+            "logitech-pebble-2-m350s"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d10",
+          "split": "dev",
+          "query": "M720 Triathlon three device tilt wheel",
+          "expected": [
+            "logitech-m720"
+          ],
+          "retrieved": [
+            "logitech-m720",
+            "logitech-pebble-2-m350s"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d11",
+          "split": "dev",
+          "query": "MX Vertical medium large hands rechargeable",
+          "expected": [
+            "logitech-mx-vertical"
+          ],
+          "retrieved": [
+            "logitech-mx-vertical",
+            "logitech-lift",
+            "keychron-m2-4k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d12",
+          "split": "dev",
+          "query": "compact mini gaming mouse onboard profiles",
+          "expected": [
+            "keychron-m2-mini-8k",
+            "keychron-m3-mini-8k"
+          ],
+          "retrieved": [
+            "keychron-m3-mini-8k",
+            "keychron-m2-mini-8k",
+            "keychron-m2-4k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d13",
+          "split": "dev",
+          "query": "4000 Hz PixArt 3395 gaming",
+          "expected": [
+            "keychron-m2-4k"
+          ],
+          "retrieved": [
+            "keychron-m2-4k",
+            "keychron-m2-mini-8k",
+            "razer-cobra"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d14",
+          "split": "dev",
+          "query": "M6 All Silent Premium Wheel 86 g",
+          "expected": [
+            "keychron-m6-silent-1k"
+          ],
+          "retrieved": [
+            "keychron-m6-silent-1k",
+            "logitech-m720",
+            "logitech-m100"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d15",
+          "split": "dev",
+          "query": "glass tracking PixArt 3950",
+          "expected": [
+            "keychron-m2-mini-8k",
+            "keychron-m7-8k"
+          ],
+          "retrieved": [
+            "keychron-m7-8k",
+            "keychron-m2-mini-8k",
+            "keychron-m2-4k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d16",
+          "split": "dev",
+          "query": "ambidextrous Bluetooth travel",
+          "expected": [
+            "logitech-pebble-2-m350s"
+          ],
+          "retrieved": [
+            "logitech-pebble-2-m350s"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d17",
+          "split": "dev",
+          "query": "Bluetooth office mouse",
+          "expected": [],
+          "retrieved": [],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 0,
+          "abstention_correct": true
+        },
+        {
+          "id": "d18",
+          "split": "dev",
+          "query": "left handed gaming mouse",
+          "expected": [],
+          "retrieved": [],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 0,
+          "abstention_correct": true
+        },
+        {
+          "id": "d19",
+          "split": "dev",
+          "query": "mechanical keyboard keycaps",
+          "expected": [],
+          "retrieved": [],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 0,
+          "abstention_correct": true
+        },
+        {
+          "id": "d20",
+          "split": "dev",
+          "query": "left handed ultralight mouse",
+          "expected": [],
+          "retrieved": [],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 0,
+          "abstention_correct": true
+        },
+        {
+          "id": "t01",
+          "split": "test",
+          "query": "เมาส์เงียบ ใช้บลูทูธ ทำงาน",
+          "expected": [
+            "logitech-pebble-2-m350s"
+          ],
+          "retrieved": [],
+          "recall_at_3": 0.0,
+          "reciprocal_rank": 0.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t02",
+          "split": "test",
+          "query": "น้ำหนักเบา เล่นเกม",
+          "expected": [
+            "keychron-m2-4k",
+            "keychron-m2-mini-8k",
+            "keychron-m3-mini-8k",
+            "razer-cobra"
+          ],
+          "retrieved": [],
+          "recall_at_3": 0.0,
+          "reciprocal_rank": 0.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t03",
+          "split": "test",
+          "query": "แนวตั้ง มือซ้าย",
+          "expected": [
+            "logitech-lift-left"
+          ],
+          "retrieved": [],
+          "recall_at_3": 0.0,
+          "reciprocal_rank": 0.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t04",
+          "split": "test",
+          "query": "พกพา ไร้สาย",
+          "expected": [
+            "logitech-m170",
+            "logitech-m185"
+          ],
+          "retrieved": [],
+          "recall_at_3": 0.0,
+          "reciprocal_rank": 0.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t05",
+          "split": "test",
+          "query": "เมาส์มีสาย RGB",
+          "expected": [
+            "logitech-g203",
+            "razer-cobra"
+          ],
+          "retrieved": [
+            "logitech-g203",
+            "razer-cobra"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t06",
+          "split": "test",
+          "query": "silent side wheel office productivity",
+          "expected": [
+            "keychron-m6-silent-1k"
+          ],
+          "retrieved": [
+            "keychron-m6-silent-1k",
+            "logitech-m720",
+            "logitech-m100"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t07",
+          "split": "test",
+          "query": "M2 Mini 8K glass 50g",
+          "expected": [
+            "keychron-m2-mini-8k"
+          ],
+          "retrieved": [
+            "keychron-m2-mini-8k",
+            "keychron-m3-mini-8k",
+            "keychron-m7-8k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t08",
+          "split": "test",
+          "query": "Logitech wired 1000 DPI plug play",
+          "expected": [
+            "logitech-m100"
+          ],
+          "retrieved": [
+            "logitech-m100"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t09",
+          "split": "test",
+          "query": "เมาส์มือซ้าย Bluetooth เบา",
+          "expected": [],
+          "retrieved": [],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 0,
+          "abstention_correct": true
+        },
+        {
+          "id": "t10",
+          "split": "test",
+          "query": "wireless gaming 8000 Hz mouse",
+          "expected": [],
+          "retrieved": [],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 0,
+          "abstention_correct": true
+        }
+      ]
+    },
+    "hybrid": {
+      "all": {
+        "n": 30,
+        "answerable_n": 24,
+        "unanswerable_n": 6,
+        "recall_at_3": 0.9895833333333334,
+        "mrr_at_3": 1.0,
+        "constraint_violations": 0,
+        "abstention_accuracy": 1.0
+      },
+      "dev": {
+        "n": 20,
+        "answerable_n": 16,
+        "unanswerable_n": 4,
+        "recall_at_3": 1.0,
+        "mrr_at_3": 1.0,
+        "constraint_violations": 0,
+        "abstention_accuracy": 1.0
+      },
+      "test": {
+        "n": 10,
+        "answerable_n": 8,
+        "unanswerable_n": 2,
+        "recall_at_3": 0.96875,
+        "mrr_at_3": 1.0,
+        "constraint_violations": 0,
+        "abstention_accuracy": 1.0
+      },
+      "cases": [
+        {
+          "id": "d01",
+          "split": "dev",
+          "query": "USB wired office mouse under 10",
+          "expected": [
+            "logitech-m100"
+          ],
+          "retrieved": [
+            "logitech-m100"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d02",
+          "split": "dev",
+          "query": "compact receiver mouse for travel",
+          "expected": [
+            "logitech-m170"
+          ],
+          "retrieved": [
+            "logitech-m170"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d03",
+          "split": "dev",
+          "query": "quiet Bluetooth compact mouse",
+          "expected": [
+            "logitech-pebble-2-m350s"
+          ],
+          "retrieved": [
+            "logitech-pebble-2-m350s"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d04",
+          "split": "dev",
+          "query": "left handed vertical office mouse",
+          "expected": [
+            "logitech-lift-left"
+          ],
+          "retrieved": [
+            "logitech-lift-left"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d05",
+          "split": "dev",
+          "query": "right handed vertical small medium hands",
+          "expected": [
+            "logitech-lift"
+          ],
+          "retrieved": [
+            "logitech-lift",
+            "logitech-m720",
+            "keychron-m2-4k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d06",
+          "split": "dev",
+          "query": "lightweight gaming 50 gram mouse",
+          "expected": [
+            "keychron-m2-mini-8k"
+          ],
+          "retrieved": [
+            "keychron-m2-mini-8k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d07",
+          "split": "dev",
+          "query": "RGB wired gaming mouse",
+          "expected": [
+            "logitech-g203",
+            "razer-cobra"
+          ],
+          "retrieved": [
+            "logitech-g203",
+            "razer-cobra"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d08",
+          "split": "dev",
+          "query": "G305 HERO LIGHTSPEED AA battery",
+          "expected": [
+            "logitech-g305"
+          ],
+          "retrieved": [
+            "logitech-g305",
+            "logitech-m170",
+            "logitech-m185"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d09",
+          "split": "dev",
+          "query": "quiet horizontal scroll metal wheel mouse",
+          "expected": [
+            "keychron-m6-silent-1k"
+          ],
+          "retrieved": [
+            "keychron-m6-silent-1k",
+            "logitech-m720",
+            "logitech-pebble-2-m350s"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d10",
+          "split": "dev",
+          "query": "M720 Triathlon three device tilt wheel",
+          "expected": [
+            "logitech-m720"
+          ],
+          "retrieved": [
+            "logitech-m720",
+            "logitech-pebble-2-m350s"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d11",
+          "split": "dev",
+          "query": "MX Vertical medium large hands rechargeable",
+          "expected": [
+            "logitech-mx-vertical"
+          ],
+          "retrieved": [
+            "logitech-mx-vertical",
+            "logitech-lift",
+            "keychron-m2-4k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d12",
+          "split": "dev",
+          "query": "compact mini gaming mouse onboard profiles",
+          "expected": [
+            "keychron-m2-mini-8k",
+            "keychron-m3-mini-8k"
+          ],
+          "retrieved": [
+            "keychron-m3-mini-8k",
+            "keychron-m2-mini-8k",
+            "keychron-m2-4k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d13",
+          "split": "dev",
+          "query": "4000 Hz PixArt 3395 gaming",
+          "expected": [
+            "keychron-m2-4k"
+          ],
+          "retrieved": [
+            "keychron-m2-4k",
+            "keychron-m2-mini-8k",
+            "keychron-m3-mini-8k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d14",
+          "split": "dev",
+          "query": "M6 All Silent Premium Wheel 86 g",
+          "expected": [
+            "keychron-m6-silent-1k"
+          ],
+          "retrieved": [
+            "keychron-m6-silent-1k",
+            "logitech-pebble-2-m350s",
+            "logitech-m720"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d15",
+          "split": "dev",
+          "query": "glass tracking PixArt 3950",
+          "expected": [
+            "keychron-m2-mini-8k",
+            "keychron-m7-8k"
+          ],
+          "retrieved": [
+            "keychron-m2-mini-8k",
+            "keychron-m7-8k",
+            "keychron-m2-4k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d16",
+          "split": "dev",
+          "query": "ambidextrous Bluetooth travel",
+          "expected": [
+            "logitech-pebble-2-m350s"
+          ],
+          "retrieved": [
+            "logitech-pebble-2-m350s"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "d17",
+          "split": "dev",
+          "query": "Bluetooth office mouse",
+          "expected": [],
+          "retrieved": [],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 0,
+          "abstention_correct": true
+        },
+        {
+          "id": "d18",
+          "split": "dev",
+          "query": "left handed gaming mouse",
+          "expected": [],
+          "retrieved": [],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 0,
+          "abstention_correct": true
+        },
+        {
+          "id": "d19",
+          "split": "dev",
+          "query": "mechanical keyboard keycaps",
+          "expected": [],
+          "retrieved": [],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 0,
+          "abstention_correct": true
+        },
+        {
+          "id": "d20",
+          "split": "dev",
+          "query": "left handed ultralight mouse",
+          "expected": [],
+          "retrieved": [],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 0,
+          "abstention_correct": true
+        },
+        {
+          "id": "t01",
+          "split": "test",
+          "query": "เมาส์เงียบ ใช้บลูทูธ ทำงาน",
+          "expected": [
+            "logitech-pebble-2-m350s"
+          ],
+          "retrieved": [
+            "logitech-pebble-2-m350s"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t02",
+          "split": "test",
+          "query": "น้ำหนักเบา เล่นเกม",
+          "expected": [
+            "keychron-m2-4k",
+            "keychron-m2-mini-8k",
+            "keychron-m3-mini-8k",
+            "razer-cobra"
+          ],
+          "retrieved": [
+            "keychron-m3-mini-8k",
+            "keychron-m2-4k",
+            "razer-cobra"
+          ],
+          "recall_at_3": 0.75,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t03",
+          "split": "test",
+          "query": "แนวตั้ง มือซ้าย",
+          "expected": [
+            "logitech-lift-left"
+          ],
+          "retrieved": [
+            "logitech-lift-left"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t04",
+          "split": "test",
+          "query": "พกพา ไร้สาย",
+          "expected": [
+            "logitech-m170",
+            "logitech-m185"
+          ],
+          "retrieved": [
+            "logitech-m170",
+            "logitech-m185"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t05",
+          "split": "test",
+          "query": "เมาส์มีสาย RGB",
+          "expected": [
+            "logitech-g203",
+            "razer-cobra"
+          ],
+          "retrieved": [
+            "logitech-g203",
+            "razer-cobra"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t06",
+          "split": "test",
+          "query": "silent side wheel office productivity",
+          "expected": [
+            "keychron-m6-silent-1k"
+          ],
+          "retrieved": [
+            "keychron-m6-silent-1k",
+            "logitech-pebble-2-m350s",
+            "logitech-m720"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t07",
+          "split": "test",
+          "query": "M2 Mini 8K glass 50g",
+          "expected": [
+            "keychron-m2-mini-8k"
+          ],
+          "retrieved": [
+            "keychron-m2-mini-8k",
+            "keychron-m3-mini-8k",
+            "keychron-m7-8k"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t08",
+          "split": "test",
+          "query": "Logitech wired 1000 DPI plug play",
+          "expected": [
+            "logitech-m100"
+          ],
+          "retrieved": [
+            "logitech-m100"
+          ],
+          "recall_at_3": 1.0,
+          "reciprocal_rank": 1.0,
+          "constraint_violations": 0,
+          "abstention_correct": null
+        },
+        {
+          "id": "t09",
+          "split": "test",
+          "query": "เมาส์มือซ้าย Bluetooth เบา",
+          "expected": [],
+          "retrieved": [],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 0,
+          "abstention_correct": true
+        },
+        {
+          "id": "t10",
+          "split": "test",
+          "query": "wireless gaming 8000 Hz mouse",
+          "expected": [],
+          "retrieved": [],
+          "recall_at_3": null,
+          "reciprocal_rank": null,
+          "constraint_violations": 0,
+          "abstention_correct": true
+        }
+      ]
+    }
+  }
+}

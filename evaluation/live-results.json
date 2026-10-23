@@ -1,0 +1,420 @@
+{
+  "model": "gemma-4-E4B-it",
+  "temperature": 0,
+  "cases": [
+    {
+      "id": "quiet-office",
+      "question": "แนะนำเมาส์เงียบสำหรับทำงาน ใช้ Bluetooth งบไม่เกิน 30 USD พร้อมข้อควรระวัง",
+      "filters": {
+        "budget": 30,
+        "connection": "bluetooth",
+        "use_case": "office"
+      },
+      "expected": [
+        "logitech-pebble-2-m350s"
+      ],
+      "passed": true,
+      "result": {
+        "answer": {
+          "summary": "จากการค้นหาเมาส์ที่เงียบ ใช้งานผ่าน Bluetooth สำหรับสำนักงาน และมีงบประมาณไม่เกิน 30 USD พบผลิตภัณฑ์ที่แนะนำดังนี้",
+          "recommendations": [
+            {
+              "product_id": "logitech-pebble-2-m350s",
+              "reason": "เมาส์รุ่นนี้มีคุณสมบัติ 'quiet_clicks' (คลิกเงียบ) รองรับการเชื่อมต่อ Bluetooth และมีราคาอ้างอิงอยู่ที่ 24.99 USD ซึ่งอยู่ในงบประมาณที่กำหนด [logitech-pebble-2-m350s]",
+              "tradeoff": "ตัวรับสัญญาณ Logi Bolt ไม่ได้รวมอยู่ในชุด และราคาอาจแตกต่างกันไปตามสีที่เลือก [logitech-pebble-2-m350s]",
+              "citation_ids": [
+                "logitech-pebble-2-m350s"
+              ]
+            }
+          ],
+          "limitations": [
+            "ข้อมูลที่ได้รับเป็นราคาอ้างอิงจากผู้ผลิต (USD reference prices) ไม่ใช่ราคาปัจจุบันในร้านค้า",
+            "เมาส์ที่แนะนำนี้มีตัวเลือกการเชื่อมต่อทั้ง Bluetooth และ 2.4GHz แต่ต้องตรวจสอบว่าการเชื่อมต่อ Bluetooth เป็นไปตามความต้องการอย่างสมบูรณ์",
+            "มีข้อจำกัดว่าตัวรับสัญญาณ Logi Bolt ไม่ได้รวมอยู่ในชุด [logitech-pebble-2-m350s]"
+          ],
+          "abstain": false
+        },
+        "evidence": [
+          {
+            "id": "logitech-pebble-2-m350s",
+            "name": "Logitech Pebble Mouse 2 M350s",
+            "brand": "Logitech",
+            "price": 24.99,
+            "currency": "USD",
+            "price_basis": "manufacturer_displayed_reference_usd",
+            "observed_offer_usd": 24.99,
+            "weight_g": 76,
+            "connection": [
+              "bluetooth",
+              "2.4ghz"
+            ],
+            "handedness": "ambidextrous",
+            "shape": "low_profile",
+            "use_cases": [
+              "office",
+              "travel"
+            ],
+            "features": [
+              "quiet_clicks",
+              "compact",
+              "multi_device",
+              "programmable_buttons",
+              "replaceable_battery"
+            ],
+            "specs": {
+              "max_dpi": 4000,
+              "max_polling_hz": null
+            },
+            "source_ids": [
+              "pebble",
+              "pebbles"
+            ],
+            "sources": [
+              {
+                "id": "pebble",
+                "url": "https://www.logitech.com/en-us/shop/p/pebble-2-m350s-wireless-mouse",
+                "title": "Pebble Mouse 2 M350s",
+                "publisher": "Logitech",
+                "source_type": "official_manufacturer",
+                "checked_on": "2026-10-24",
+                "license": "Publisher retains rights; factual fields and original paraphrases only."
+              },
+              {
+                "id": "pebbles",
+                "url": "https://www.logitech.com/en-sa/products/mice/pebble-2-m350s-wireless-mouse.910-007015.html",
+                "title": "Pebble Mouse 2 M350s specifications",
+                "publisher": "Logitech",
+                "source_type": "official_manufacturer",
+                "checked_on": "2026-10-24",
+                "license": "Publisher retains rights; factual fields and original paraphrases only."
+              }
+            ],
+            "source_excerpt": "Slim ambidextrous shape, quiet clicks, three-device pairing, customizable middle button, Bluetooth or optional Logi Bolt, 76 g including AA. Logi Bolt receiver is NOT included. Selected color price may differ from other colors.",
+            "variant": "Study Buddy color shown in US shop",
+            "notes": "Logi Bolt receiver is NOT included. Selected color price may differ from other colors.",
+            "checked_on": "2026-10-24"
+          }
+        ],
+        "trace": [
+          {
+            "step": 1,
+            "tool": "filter_products",
+            "query": "silent mouse for office use with bluetooth under 30 USD",
+            "product_ids": [
+              "logitech-pebble-2-m350s"
+            ]
+          }
+        ],
+        "mode": "live_llm",
+        "model": "gemma-4-E4B-it",
+        "elapsed_ms": 4437
+      }
+    },
+    {
+      "id": "left-impossible",
+      "question": "อยากได้เมาส์มือซ้าย Bluetooth น้ำหนักไม่เกิน 80 กรัม งบ 100 USD ถ้าไม่มีให้บอกว่าไม่มี",
+      "filters": {
+        "budget": 100,
+        "max_weight": 80,
+        "handedness": "left",
+        "connection": "bluetooth"
+      },
+      "expected": [],
+      "passed": true,
+      "result": {
+        "answer": {
+          "summary": "ขออภัยค่ะ จากข้อมูลที่มีอยู่ ไม่พบเมาส์ที่ตรงตามเงื่อนไขทั้งหมดที่คุณระบุ (มือซ้าย, Bluetooth, น้ำหนักไม่เกิน 80 กรัม, งบไม่เกิน 100 USD) ค่ะ",
+          "recommendations": [],
+          "limitations": [
+            "ไม่พบผลิตภัณฑ์ที่ตรงตามเงื่อนไขทั้งหมด"
+          ],
+          "abstain": true
+        },
+        "evidence": [],
+        "trace": [
+          {
+            "step": 1,
+            "tool": "filter_products",
+            "query": "left handed bluetooth mouse under 80g under 100 USD",
+            "product_ids": []
+          }
+        ],
+        "mode": "live_llm",
+        "model": "gemma-4-E4B-it",
+        "elapsed_ms": 2533
+      }
+    },
+    {
+      "id": "gaming-light",
+      "question": "เลือกเมาส์เล่นเกมน้ำหนักเบาไม่เกิน 60 กรัม งบ 70 USD ช่วยเทียบ 2 รุ่นและอ้างอิงสเปก",
+      "filters": {
+        "budget": 70,
+        "max_weight": 60,
+        "use_case": "gaming"
+      },
+      "expected": [
+        "keychron-m2-4k",
+        "keychron-m2-mini-8k",
+        "keychron-m3-mini-8k",
+        "razer-cobra"
+      ],
+      "passed": true,
+      "result": {
+        "answer": {
+          "summary": "จากการค้นหาเมาส์เล่นเกมน้ำหนักเบาไม่เกิน 60 กรัม ภายใต้งบ 70 USD พบตัวเลือกที่น่าสนใจ 3 รุ่น เพื่อให้ท่านเปรียบเทียบ 2 รุ่นตามที่ร้องขอ ผมขอแนะนำ Razer Cobra และ Keychron M2 Mini 8K ครับ",
+          "recommendations": [
+            {
+              "product_id": "razer-cobra",
+              "reason": "มีน้ำหนัก 58 กรัม ซึ่งอยู่ในเกณฑ์ที่ต้องการ และมีคุณสมบัติสำหรับเล่นเกม เช่น มีปุ่มที่ตั้งโปรแกรมได้และใช้สวิตช์แบบ Optical [razer-cobra].",
+              "tradeoff": "การเชื่อมต่อเป็นแบบมีสาย (wired) เท่านั้น [razer-cobra].",
+              "citation_ids": [
+                "razer-cobra"
+              ]
+            },
+            {
+              "product_id": "keychron-m2-mini-8k",
+              "reason": "มีน้ำหนักเพียง 50 กรัม ซึ่งเบามาก และรองรับการเล่นเกมด้วยสเปคสูง เช่น สูงสุด 30000 DPI และ Polling Rate สูงสุด 8000 Hz [keychron-m2-mini-8k].",
+              "tradeoff": "มีรูปทรงแบบ Ergonomic สำหรับมือขวา [keychron-m2-mini-8k].",
+              "citation_ids": [
+                "keychron-m2-mini-8k"
+              ]
+            }
+          ],
+          "limitations": [
+            "ข้อมูลราคาที่แสดงเป็นราคาอ้างอิงจากผู้ผลิตในสหรัฐอเมริกา (USD reference prices) ไม่ใช่ราคาปัจจุบันในไทย",
+            "Keychron M3 Mini 8K มีข้อมูล Handedness และ Max DPI ไม่ระบุชัดเจน [keychron-m3-mini-8k]."
+          ],
+          "abstain": false
+        },
+        "evidence": [
+          {
+            "id": "razer-cobra",
+            "name": "Razer Cobra",
+            "brand": "Razer",
+            "price": 39.99,
+            "currency": "USD",
+            "price_basis": "manufacturer_us_launch_msrp_2023-06-29",
+            "observed_offer_usd": null,
+            "weight_g": 58,
+            "connection": [
+              "wired"
+            ],
+            "handedness": "right",
+            "shape": "symmetric",
+            "use_cases": [
+              "gaming"
+            ],
+            "features": [
+              "rgb",
+              "optical_switches",
+              "programmable_buttons",
+              "onboard_memory"
+            ],
+            "specs": {
+              "max_dpi": 8500,
+              "max_polling_hz": 1000
+            },
+            "source_ids": [
+              "cobra",
+              "cobraprice"
+            ],
+            "sources": [
+              {
+                "id": "cobra",
+                "url": "https://mysupport.razer.com/app/answers/detail/a_id/13184/~/razer-cobra-%257C-rz01-0465-support-%2526-faqs",
+                "title": "Razer Cobra support",
+                "publisher": "Razer",
+                "source_type": "official_manufacturer",
+                "checked_on": "2026-10-24",
+                "license": "Publisher retains rights; factual fields and original paraphrases only."
+              },
+              {
+                "id": "cobraprice",
+                "url": "https://www.razer.com/newsroom/product-news/the-razer-cobra-pro-and-razer-cobra-emerge-a-distinct-new-mouse-line-thats-perfect-for-play",
+                "title": "Razer Cobra launch announcement",
+                "publisher": "Razer",
+                "source_type": "official_manufacturer",
+                "checked_on": "2026-10-24",
+                "license": "Publisher retains rights; factual fields and original paraphrases only."
+              }
+            ],
+            "source_excerpt": "Wired mouse with right-handed symmetric form, six programmable buttons, optical switches and RGB, 58 g excluding cable, 8500 DPI and 1000 Hz. Price is the June 29 2023 US launch MSRP, NOT a current offer.",
+            "variant": "Black / RZ01-0465",
+            "notes": "Price is the June 29 2023 US launch MSRP, NOT a current offer.",
+            "checked_on": "2026-10-24"
+          },
+          {
+            "id": "keychron-m2-4k",
+            "name": "Keychron M2 4K",
+            "brand": "Keychron",
+            "price": 69.99,
+            "currency": "USD",
+            "price_basis": "manufacturer_displayed_reference_usd",
+            "observed_offer_usd": 54.99,
+            "weight_g": 55,
+            "connection": [
+              "wired",
+              "bluetooth",
+              "2.4ghz"
+            ],
+            "handedness": "right",
+            "shape": "ergonomic",
+            "use_cases": [
+              "office",
+              "gaming",
+              "travel"
+            ],
+            "features": [
+              "rechargeable",
+              "programmable_buttons",
+              "onboard_memory",
+              "usb_receiver"
+            ],
+            "specs": {
+              "max_dpi": 26000,
+              "max_polling_hz": 4000
+            },
+            "source_ids": [
+              "km2"
+            ],
+            "sources": [
+              {
+                "id": "km2",
+                "url": "https://www.keychron.com/products/keychron-m2-wireless-mouse",
+                "title": "Keychron M2",
+                "publisher": "Keychron",
+                "source_type": "official_manufacturer",
+                "checked_on": "2026-10-24",
+                "license": "Publisher retains rights; factual fields and original paraphrases only."
+              }
+            ],
+            "source_excerpt": "Asymmetric right-hand shape, 55 g, PixArt 3395, 26000 DPI and 4000-Hz receiver; USB, Bluetooth and 2.4 GHz. Do not transfer 3950/8K sensor or headline battery claims to this 4K variant.",
+            "variant": "Black / PixArt 3395 4K / M2-A4",
+            "notes": "Do not transfer 3950/8K sensor or headline battery claims to this 4K variant.",
+            "checked_on": "2026-10-24"
+          },
+          {
+            "id": "keychron-m3-mini-8k",
+            "name": "Keychron M3 Mini 8K",
+            "brand": "Keychron",
+            "price": 69.99,
+            "currency": "USD",
+            "price_basis": "manufacturer_displayed_reference_usd",
+            "observed_offer_usd": 62.99,
+            "weight_g": 55,
+            "connection": [
+              "wired",
+              "bluetooth",
+              "2.4ghz"
+            ],
+            "handedness": null,
+            "shape": null,
+            "use_cases": [
+              "office",
+              "gaming",
+              "travel"
+            ],
+            "features": [
+              "compact",
+              "rechargeable",
+              "programmable_buttons",
+              "onboard_memory",
+              "usb_receiver"
+            ],
+            "specs": {
+              "max_dpi": null,
+              "max_polling_hz": 8000
+            },
+            "source_ids": [
+              "km3mini"
+            ],
+            "sources": [
+              {
+                "id": "km3mini",
+                "url": "https://www.keychron.com/products/keychron-m3-mini-wireless-mouse",
+                "title": "Keychron M3-MINI",
+                "publisher": "Keychron",
+                "source_type": "official_manufacturer",
+                "checked_on": "2026-10-24",
+                "license": "Publisher retains rights; factual fields and original paraphrases only."
+              }
+            ],
+            "source_excerpt": "M3 Mini listed at 55 g. Selected 8K version supports USB/Bluetooth/2.4 GHz, button remapping, macros and five onboard profiles. Handedness and selected-variant max DPI unverified; null.",
+            "variant": "White / PixArt 3950 8K / M3M-A24",
+            "notes": "Handedness and selected-variant max DPI unverified; null.",
+            "checked_on": "2026-10-24"
+          },
+          {
+            "id": "keychron-m2-mini-8k",
+            "name": "Keychron M2 Mini 8K",
+            "brand": "Keychron",
+            "price": 69.99,
+            "currency": "USD",
+            "price_basis": "manufacturer_displayed_reference_usd",
+            "observed_offer_usd": 59.99,
+            "weight_g": 50,
+            "connection": [
+              "wired",
+              "bluetooth",
+              "2.4ghz"
+            ],
+            "handedness": "right",
+            "shape": "ergonomic",
+            "use_cases": [
+              "office",
+              "gaming",
+              "travel"
+            ],
+            "features": [
+              "compact",
+              "rechargeable",
+              "programmable_buttons",
+              "onboard_memory",
+              "usb_receiver",
+              "glass_tracking"
+            ],
+            "specs": {
+              "max_dpi": 30000,
+              "max_polling_hz": 8000
+            },
+            "source_ids": [
+              "km2mini"
+            ],
+            "sources": [
+              {
+                "id": "km2mini",
+                "url": "https://www.keychron.com/products/keychron-m2-mini-wireless-mouse",
+                "title": "Keychron M2-MINI",
+                "publisher": "Keychron",
+                "source_type": "official_manufacturer",
+                "checked_on": "2026-10-24",
+                "license": "Publisher retains rights; factual fields and original paraphrases only."
+              }
+            ],
+            "source_excerpt": "Asymmetric right-hand shape, nominal 50 g plus/minus 3 g, PixArt 3950, 30000 DPI and 8000-Hz wired/2.4-GHz reporting. Bluetooth up to 125 Hz; glass tracking requires glass at least 4 mm thick.",
+            "variant": "Black / PixArt 3950 8K / M2M-A23",
+            "notes": "Bluetooth up to 125 Hz; glass tracking requires glass at least 4 mm thick.",
+            "checked_on": "2026-10-24"
+          }
+        ],
+        "trace": [
+          {
+            "step": 1,
+            "tool": "filter_products",
+            "query": "lightweight gaming mouse under 60g under $70",
+            "product_ids": [
+              "razer-cobra",
+              "keychron-m2-4k",
+              "keychron-m3-mini-8k",
+              "keychron-m2-mini-8k"
+            ]
+          }
+        ],
+        "mode": "live_llm",
+        "model": "gemma-4-E4B-it",
+        "elapsed_ms": 5451
+      }
+    }
+  ],
+  "scope": "Live native function-calling smoke tests, separate from the 30-example offline retrieval benchmark."
+}

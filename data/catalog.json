@@ -1,0 +1,1140 @@
+[
+  {
+    "id": "logitech-m100",
+    "name": "Logitech M100",
+    "brand": "Logitech",
+    "price": 9.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 9.99,
+    "weight_g": 90,
+    "connection": [
+      "wired"
+    ],
+    "handedness": "ambidextrous",
+    "shape": "symmetric",
+    "use_cases": [
+      "office"
+    ],
+    "features": [
+      "plug_and_play"
+    ],
+    "specs": {
+      "max_dpi": 1000,
+      "max_polling_hz": null
+    },
+    "source_ids": [
+      "m100",
+      "m100s"
+    ],
+    "sources": [
+      {
+        "id": "m100",
+        "url": "https://www.logitech.com/en-us/shop/p/m100-usb-mouse",
+        "title": "Logitech M100",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      },
+      {
+        "id": "m100s",
+        "url": "https://www.logitech.com/en-ae/products/mice/m100-usb-mouse.910-006652.html",
+        "title": "M100 specifications",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Full-size ambidextrous USB optical mouse with a 1000-DPI sensor and listed 90 g weight. Cable inclusion in weight is not stated.",
+    "variant": "Grey",
+    "notes": "Cable inclusion in weight is not stated.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "logitech-m170",
+    "name": "Logitech M170",
+    "brand": "Logitech",
+    "price": 14.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 14.99,
+    "weight_g": 70.5,
+    "connection": [
+      "2.4ghz"
+    ],
+    "handedness": "ambidextrous",
+    "shape": "compact",
+    "use_cases": [
+      "office",
+      "travel"
+    ],
+    "features": [
+      "compact",
+      "replaceable_battery",
+      "usb_receiver"
+    ],
+    "specs": {
+      "max_dpi": 1000,
+      "max_polling_hz": null
+    },
+    "source_ids": [
+      "m170",
+      "m170s"
+    ],
+    "sources": [
+      {
+        "id": "m170",
+        "url": "https://www.logitech.com/en-us/shop/p/m170-wireless-mouse",
+        "title": "Logitech M170",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      },
+      {
+        "id": "m170s",
+        "url": "https://support.logi.com/hc/de/articles/360023301394-M170-M171-B170-Technische-Daten",
+        "title": "M170/M171/B170 specifications",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Compact ambidextrous 2.4-GHz receiver mouse, one AA battery, 1000 DPI, 70.5 g. Support groups M170/M171/B170. No Bluetooth claimed.",
+    "variant": "Black / M-R0060 or MR0099",
+    "notes": "Support groups M170/M171/B170. No Bluetooth claimed.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "logitech-m185",
+    "name": "Logitech M185",
+    "brand": "Logitech",
+    "price": 17.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 14.99,
+    "weight_g": 75,
+    "connection": [
+      "2.4ghz"
+    ],
+    "handedness": "ambidextrous",
+    "shape": "compact",
+    "use_cases": [
+      "office",
+      "travel"
+    ],
+    "features": [
+      "compact",
+      "replaceable_battery",
+      "usb_receiver"
+    ],
+    "specs": {
+      "max_dpi": 1000,
+      "max_polling_hz": null
+    },
+    "source_ids": [
+      "m185",
+      "m185s"
+    ],
+    "sources": [
+      {
+        "id": "m185",
+        "url": "https://www.logitech.com/en-us/shop/p/m185-wireless-mouse",
+        "title": "Logitech M185",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      },
+      {
+        "id": "m185s",
+        "url": "https://support.logi.com/hc/en-my/articles/360023241934-M185-Technical-Specifications",
+        "title": "M185 specifications",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Compact mouse for either hand, 2.4-GHz receiver, 1000 DPI, 75 g including AA battery. Support unit typo reconciled with paired 2.65-ounce figure.",
+    "variant": "Grey",
+    "notes": "Support unit typo reconciled with paired 2.65-ounce figure.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "logitech-pebble-2-m350s",
+    "name": "Logitech Pebble Mouse 2 M350s",
+    "brand": "Logitech",
+    "price": 24.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 24.99,
+    "weight_g": 76,
+    "connection": [
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": "ambidextrous",
+    "shape": "low_profile",
+    "use_cases": [
+      "office",
+      "travel"
+    ],
+    "features": [
+      "quiet_clicks",
+      "compact",
+      "multi_device",
+      "programmable_buttons",
+      "replaceable_battery"
+    ],
+    "specs": {
+      "max_dpi": 4000,
+      "max_polling_hz": null
+    },
+    "source_ids": [
+      "pebble",
+      "pebbles"
+    ],
+    "sources": [
+      {
+        "id": "pebble",
+        "url": "https://www.logitech.com/en-us/shop/p/pebble-2-m350s-wireless-mouse",
+        "title": "Pebble Mouse 2 M350s",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      },
+      {
+        "id": "pebbles",
+        "url": "https://www.logitech.com/en-sa/products/mice/pebble-2-m350s-wireless-mouse.910-007015.html",
+        "title": "Pebble Mouse 2 M350s specifications",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Slim ambidextrous shape, quiet clicks, three-device pairing, customizable middle button, Bluetooth or optional Logi Bolt, 76 g including AA. Logi Bolt receiver is NOT included. Selected color price may differ from other colors.",
+    "variant": "Study Buddy color shown in US shop",
+    "notes": "Logi Bolt receiver is NOT included. Selected color price may differ from other colors.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "logitech-lift",
+    "name": "Logitech Lift",
+    "brand": "Logitech",
+    "price": 79.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 69.99,
+    "weight_g": 125,
+    "connection": [
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": "right",
+    "shape": "vertical",
+    "use_cases": [
+      "office"
+    ],
+    "features": [
+      "vertical",
+      "quiet_clicks",
+      "replaceable_battery",
+      "usb_receiver"
+    ],
+    "specs": {
+      "max_dpi": 4000,
+      "max_polling_hz": null
+    },
+    "source_ids": [
+      "lift",
+      "lifts"
+    ],
+    "sources": [
+      {
+        "id": "lift",
+        "url": "https://www.logitech.com/en-us/shop/p/lift-vertical-ergonomic-mouse",
+        "title": "Logitech Lift",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      },
+      {
+        "id": "lifts",
+        "url": "https://www.logitech.com/en-ae/products/mice/lift-vertical-ergonomic-mouse.html",
+        "title": "Lift specifications",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Right-handed variant.  57-degree vertical design aimed at small/medium hands, Bluetooth or Logi Bolt, quiet clicks, 4000 DPI and 125 g. Design positioning is not a medical outcome claim.",
+    "variant": "Graphite / right-handed",
+    "notes": "57-degree vertical design aimed at small/medium hands, Bluetooth or Logi Bolt, quiet clicks, 4000 DPI and 125 g. Design positioning is not a medical outcome claim.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "logitech-lift-left",
+    "name": "Logitech Lift Left",
+    "brand": "Logitech",
+    "price": 79.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 69.99,
+    "weight_g": 125,
+    "connection": [
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": "left",
+    "shape": "vertical",
+    "use_cases": [
+      "office"
+    ],
+    "features": [
+      "vertical",
+      "quiet_clicks",
+      "replaceable_battery",
+      "usb_receiver"
+    ],
+    "specs": {
+      "max_dpi": 4000,
+      "max_polling_hz": null
+    },
+    "source_ids": [
+      "liftleft",
+      "lifts"
+    ],
+    "sources": [
+      {
+        "id": "liftleft",
+        "url": "https://www.logitech.com/en-us/shop/p/lift-vertical-ergonomic-mouse.910-006467",
+        "title": "Logitech Lift Left",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      },
+      {
+        "id": "lifts",
+        "url": "https://www.logitech.com/en-ae/products/mice/lift-vertical-ergonomic-mouse.html",
+        "title": "Lift specifications",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Left-handed variant.  57-degree vertical design aimed at small/medium hands, Bluetooth or Logi Bolt, quiet clicks, 4000 DPI and 125 g. Design positioning is not a medical outcome claim.",
+    "variant": "Graphite / 910-006467",
+    "notes": "57-degree vertical design aimed at small/medium hands, Bluetooth or Logi Bolt, quiet clicks, 4000 DPI and 125 g. Design positioning is not a medical outcome claim.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "logitech-mx-vertical",
+    "name": "Logitech MX Vertical",
+    "brand": "Logitech",
+    "price": 119.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 99.99,
+    "weight_g": 125,
+    "connection": [
+      "wired",
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": "right",
+    "shape": "vertical",
+    "use_cases": [
+      "office"
+    ],
+    "features": [
+      "vertical",
+      "rechargeable",
+      "multi_device",
+      "usb_receiver"
+    ],
+    "specs": {
+      "max_dpi": 4000,
+      "max_polling_hz": null
+    },
+    "source_ids": [
+      "vertical",
+      "verticals",
+      "verticalhand"
+    ],
+    "sources": [
+      {
+        "id": "vertical",
+        "url": "https://www.logitech.com/en-us/shop/p/mx-vertical-ergonomic-mouse",
+        "title": "Logitech MX Vertical",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      },
+      {
+        "id": "verticals",
+        "url": "https://support.logi.com/hc/en-001/articles/360023303394-MX-Vertical-Technical-Specifications",
+        "title": "MX Vertical specifications",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      },
+      {
+        "id": "verticalhand",
+        "url": "https://www.logitech.com/en-gb/discover/a/ergonomic-mouse-tips",
+        "title": "Logitech ergonomic mouse tips",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Right-handed vertical mouse for medium/large hands. 57-degree angle, Bluetooth, Unifying receiver and explicitly supported wired operation. 125 g, 4000 DPI. Wired data is documented for this model; charging cables on other mice do not imply data mode.",
+    "variant": "Graphite",
+    "notes": "Wired data is documented for this model; charging cables on other mice do not imply data mode.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "logitech-g203",
+    "name": "Logitech G203 LIGHTSYNC",
+    "brand": "Logitech",
+    "price": 39.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 29.99,
+    "weight_g": 85,
+    "connection": [
+      "wired"
+    ],
+    "handedness": null,
+    "shape": null,
+    "use_cases": [
+      "gaming"
+    ],
+    "features": [
+      "rgb",
+      "programmable_buttons",
+      "onboard_memory"
+    ],
+    "specs": {
+      "max_dpi": 8000,
+      "max_polling_hz": 1000
+    },
+    "source_ids": [
+      "g203",
+      "g203s"
+    ],
+    "sources": [
+      {
+        "id": "g203",
+        "url": "https://www.logitechg.com/en-us/shop/p/g203-lightsync-rgb-gaming-mouse",
+        "title": "G203 LIGHTSYNC",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      },
+      {
+        "id": "g203s",
+        "url": "https://www.logitechg.com/en-gb/products/gaming-mice/g203-lightsync-rgb-gaming-mouse.html?searchclick=logi&sp=2",
+        "title": "G203 specifications",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Wired gaming mouse, six programmable buttons, RGB, 8000 DPI and 1000-Hz reporting. Weight 85 g excludes cable. Handedness unverified; symmetric appearance alone is insufficient.",
+    "variant": "Lilac",
+    "notes": "Handedness unverified; symmetric appearance alone is insufficient.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "logitech-g305",
+    "name": "Logitech G305 LIGHTSPEED",
+    "brand": "Logitech",
+    "price": 59.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 59.99,
+    "weight_g": 99,
+    "connection": [
+      "2.4ghz"
+    ],
+    "handedness": null,
+    "shape": null,
+    "use_cases": [
+      "gaming"
+    ],
+    "features": [
+      "usb_receiver",
+      "replaceable_battery",
+      "onboard_memory"
+    ],
+    "specs": {
+      "max_dpi": 12000,
+      "max_polling_hz": 1000
+    },
+    "source_ids": [
+      "g305",
+      "g305s"
+    ],
+    "sources": [
+      {
+        "id": "g305",
+        "url": "https://www.logitechg.com/en-us/shop/p/g305-lightspeed-wireless-gaming-mouse",
+        "title": "G305 LIGHTSPEED",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      },
+      {
+        "id": "g305s",
+        "url": "https://www.logitechg.com/en-us/products/gaming-mice/g305-lightspeed-wireless-gaming-mouse.910-005280.html?bvstate=pg%3A2%2Fct%3Ar",
+        "title": "G305 specifications",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Wireless gaming mouse with 12000-DPI HERO sensor, 99 g, 1000-Hz wireless reporting, up to 250 hours manufacturer battery claim. No Bluetooth or wired data mode claimed; handedness unverified.",
+    "variant": "White",
+    "notes": "No Bluetooth or wired data mode claimed; handedness unverified.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "logitech-g502-hero",
+    "name": "Logitech G502 HERO",
+    "brand": "Logitech",
+    "price": 69.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 39.99,
+    "weight_g": 121,
+    "connection": [
+      "wired"
+    ],
+    "handedness": null,
+    "shape": "ergonomic",
+    "use_cases": [
+      "gaming"
+    ],
+    "features": [
+      "rgb",
+      "programmable_buttons",
+      "onboard_memory",
+      "adjustable_weights"
+    ],
+    "specs": {
+      "max_dpi": 25600,
+      "max_polling_hz": 1000
+    },
+    "source_ids": [
+      "g502",
+      "g502s"
+    ],
+    "sources": [
+      {
+        "id": "g502",
+        "url": "https://www.logitechg.com/en-us/shop/p/g502-hero-gaming-mouse",
+        "title": "G502 HERO",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      },
+      {
+        "id": "g502s",
+        "url": "https://www.logitechg.com/en-us/products/gaming-mice/g502-hero-gaming-mouse.html?bvstate=pg%3A5%2Fct%3Ar",
+        "title": "G502 HERO specifications",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Wired gaming mouse with 25600-DPI HERO sensor, RGB, onboard profiles and adjustable weights. Nominal 121 g excluding cable and optional extra weights. Dimensions omitted due apparent legacy manufacturer length typo. Handedness unverified.",
+    "variant": "Black",
+    "notes": "Dimensions omitted due apparent legacy manufacturer length typo. Handedness unverified.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "logitech-m720",
+    "name": "Logitech M720 Triathlon",
+    "brand": "Logitech",
+    "price": 44.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 34.99,
+    "weight_g": 135,
+    "connection": [
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": "right",
+    "shape": "ergonomic",
+    "use_cases": [
+      "office"
+    ],
+    "features": [
+      "multi_device",
+      "free_spin_scroll",
+      "horizontal_scroll",
+      "programmable_buttons",
+      "replaceable_battery",
+      "usb_receiver"
+    ],
+    "specs": {
+      "max_dpi": null,
+      "max_polling_hz": null
+    },
+    "source_ids": [
+      "m720",
+      "m720s"
+    ],
+    "sources": [
+      {
+        "id": "m720",
+        "url": "https://www.logitech.com/en-us/shop/p/m720-triathlon",
+        "title": "M720 Triathlon",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      },
+      {
+        "id": "m720s",
+        "url": "https://www.logitech.com/en-ae/products/mice/m720-triathlon.html",
+        "title": "M720 specifications",
+        "publisher": "Logitech",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Full-size right-handed mouse, three-device Bluetooth or Unifying pairing, dual-mode scrolling and tilt-wheel horizontal movement. 135 g including AA. Current max DPI not established consistently; null.",
+    "variant": "Black",
+    "notes": "Current max DPI not established consistently; null.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "keychron-m1-wireless",
+    "name": "Keychron M1 Wireless",
+    "brand": "Keychron",
+    "price": 45.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 45.99,
+    "weight_g": 79,
+    "connection": [
+      "wired",
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": null,
+    "shape": "ergonomic",
+    "use_cases": [
+      "office",
+      "gaming",
+      "travel"
+    ],
+    "features": [
+      "rechargeable",
+      "rgb",
+      "programmable_buttons",
+      "usb_receiver"
+    ],
+    "specs": {
+      "max_dpi": 26000,
+      "max_polling_hz": 1000
+    },
+    "source_ids": [
+      "km1"
+    ],
+    "sources": [
+      {
+        "id": "km1",
+        "url": "https://www.keychron.com/products/keychron-m1-wireless-mouse",
+        "title": "Keychron M1",
+        "publisher": "Keychron",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "PixArt 3395, 26000 DPI, 1000-Hz wired/2.4-GHz polling, Bluetooth, 79 g, RGB and software remapping. Handedness not established. Up to 70-hour battery claim requires RGB off.",
+    "variant": "Black / M1-A3",
+    "notes": "Handedness not established. Up to 70-hour battery claim requires RGB off.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "keychron-m2-4k",
+    "name": "Keychron M2 4K",
+    "brand": "Keychron",
+    "price": 69.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 54.99,
+    "weight_g": 55,
+    "connection": [
+      "wired",
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": "right",
+    "shape": "ergonomic",
+    "use_cases": [
+      "office",
+      "gaming",
+      "travel"
+    ],
+    "features": [
+      "rechargeable",
+      "programmable_buttons",
+      "onboard_memory",
+      "usb_receiver"
+    ],
+    "specs": {
+      "max_dpi": 26000,
+      "max_polling_hz": 4000
+    },
+    "source_ids": [
+      "km2"
+    ],
+    "sources": [
+      {
+        "id": "km2",
+        "url": "https://www.keychron.com/products/keychron-m2-wireless-mouse",
+        "title": "Keychron M2",
+        "publisher": "Keychron",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Asymmetric right-hand shape, 55 g, PixArt 3395, 26000 DPI and 4000-Hz receiver; USB, Bluetooth and 2.4 GHz. Do not transfer 3950/8K sensor or headline battery claims to this 4K variant.",
+    "variant": "Black / PixArt 3395 4K / M2-A4",
+    "notes": "Do not transfer 3950/8K sensor or headline battery claims to this 4K variant.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "keychron-m2-mini-8k",
+    "name": "Keychron M2 Mini 8K",
+    "brand": "Keychron",
+    "price": 69.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 59.99,
+    "weight_g": 50,
+    "connection": [
+      "wired",
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": "right",
+    "shape": "ergonomic",
+    "use_cases": [
+      "office",
+      "gaming",
+      "travel"
+    ],
+    "features": [
+      "compact",
+      "rechargeable",
+      "programmable_buttons",
+      "onboard_memory",
+      "usb_receiver",
+      "glass_tracking"
+    ],
+    "specs": {
+      "max_dpi": 30000,
+      "max_polling_hz": 8000
+    },
+    "source_ids": [
+      "km2mini"
+    ],
+    "sources": [
+      {
+        "id": "km2mini",
+        "url": "https://www.keychron.com/products/keychron-m2-mini-wireless-mouse",
+        "title": "Keychron M2-MINI",
+        "publisher": "Keychron",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Asymmetric right-hand shape, nominal 50 g plus/minus 3 g, PixArt 3950, 30000 DPI and 8000-Hz wired/2.4-GHz reporting. Bluetooth up to 125 Hz; glass tracking requires glass at least 4 mm thick.",
+    "variant": "Black / PixArt 3950 8K / M2M-A23",
+    "notes": "Bluetooth up to 125 Hz; glass tracking requires glass at least 4 mm thick.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "keychron-m3-8k",
+    "name": "Keychron M3 8K",
+    "brand": "Keychron",
+    "price": 69.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 69.99,
+    "weight_g": null,
+    "connection": [
+      "wired",
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": null,
+    "shape": "ergonomic",
+    "use_cases": [
+      "office",
+      "gaming"
+    ],
+    "features": [
+      "rechargeable",
+      "programmable_buttons",
+      "usb_receiver"
+    ],
+    "specs": {
+      "max_dpi": 30000,
+      "max_polling_hz": 8000
+    },
+    "source_ids": [
+      "km3"
+    ],
+    "sources": [
+      {
+        "id": "km3",
+        "url": "https://www.keychron.com/products/keychron-m3-wireless-mouse",
+        "title": "Keychron M3",
+        "publisher": "Keychron",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Selected M3 8K uses PixArt 3950, 30000 DPI, no RGB, USB/Bluetooth/2.4 GHz and up to 8000 Hz in wired/2.4-GHz mode. Page-level 79 g is not sufficiently tied to this variant, so weight is null. Handedness unverified.",
+    "variant": "Black / PixArt 3950 8K / No RGB / M3-A23",
+    "notes": "Page-level 79 g is not sufficiently tied to this variant, so weight is null. Handedness unverified.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "keychron-m3-mini-8k",
+    "name": "Keychron M3 Mini 8K",
+    "brand": "Keychron",
+    "price": 69.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 62.99,
+    "weight_g": 55,
+    "connection": [
+      "wired",
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": null,
+    "shape": null,
+    "use_cases": [
+      "office",
+      "gaming",
+      "travel"
+    ],
+    "features": [
+      "compact",
+      "rechargeable",
+      "programmable_buttons",
+      "onboard_memory",
+      "usb_receiver"
+    ],
+    "specs": {
+      "max_dpi": null,
+      "max_polling_hz": 8000
+    },
+    "source_ids": [
+      "km3mini"
+    ],
+    "sources": [
+      {
+        "id": "km3mini",
+        "url": "https://www.keychron.com/products/keychron-m3-mini-wireless-mouse",
+        "title": "Keychron M3-MINI",
+        "publisher": "Keychron",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "M3 Mini listed at 55 g. Selected 8K version supports USB/Bluetooth/2.4 GHz, button remapping, macros and five onboard profiles. Handedness and selected-variant max DPI unverified; null.",
+    "variant": "White / PixArt 3950 8K / M3M-A24",
+    "notes": "Handedness and selected-variant max DPI unverified; null.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "keychron-m4-4k",
+    "name": "Keychron M4 4K",
+    "brand": "Keychron",
+    "price": 69.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 59.99,
+    "weight_g": null,
+    "connection": [
+      "wired",
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": null,
+    "shape": "compact",
+    "use_cases": [
+      "office",
+      "gaming",
+      "travel"
+    ],
+    "features": [
+      "compact",
+      "rechargeable",
+      "usb_receiver"
+    ],
+    "specs": {
+      "max_dpi": 26000,
+      "max_polling_hz": 4000
+    },
+    "source_ids": [
+      "km4"
+    ],
+    "sources": [
+      {
+        "id": "km4",
+        "url": "https://www.keychron.com/products/keychron-m4-wireless-mouse",
+        "title": "Keychron M4",
+        "publisher": "Keychron",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Extra-small mouse about 8.6 cm long. Selected 4K model has PixArt 3395, 26000 DPI, 4000 Hz, USB/Bluetooth/2.4 GHz. General 35-g page text not tied clearly to selected 4K version. Weight and handedness null.",
+    "variant": "Black / PixArt 3395 4K / M4-A4",
+    "notes": "General 35-g page text not tied clearly to selected 4K version. Weight and handedness null.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "keychron-m5-8k",
+    "name": "Keychron M5 8K",
+    "brand": "Keychron",
+    "price": 69.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 69.99,
+    "weight_g": 95,
+    "connection": [
+      "wired",
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": null,
+    "shape": "vertical",
+    "use_cases": [
+      "office",
+      "gaming"
+    ],
+    "features": [
+      "vertical",
+      "rechargeable",
+      "multi_device",
+      "horizontal_scroll",
+      "usb_receiver"
+    ],
+    "specs": {
+      "max_dpi": 30000,
+      "max_polling_hz": 8000
+    },
+    "source_ids": [
+      "km5"
+    ],
+    "sources": [
+      {
+        "id": "km5",
+        "url": "https://www.keychron.com/products/keychron-m5-wireless-ergonomic-mouse",
+        "title": "Keychron M5",
+        "publisher": "Keychron",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Vertical design with top wheel and side horizontal wheel. Selected clicky 8K model: 95 g, 3950 sensor, 30000 DPI, USB/Bluetooth/2.4 GHz. All Silent text applies to another variant; no quiet-click claim here. Handedness unverified.",
+    "variant": "Black / PixArt 3950 8K / Clicky / M5-A23",
+    "notes": "All Silent text applies to another variant; no quiet-click claim here. Handedness unverified.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "keychron-m6-silent-1k",
+    "name": "Keychron M6 All Silent 1K Premium Wheel",
+    "brand": "Keychron",
+    "price": 49.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 49.99,
+    "weight_g": 86,
+    "connection": [
+      "wired",
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": "right",
+    "shape": "ergonomic",
+    "use_cases": [
+      "office",
+      "gaming"
+    ],
+    "features": [
+      "quiet_clicks",
+      "rechargeable",
+      "horizontal_scroll",
+      "free_spin_scroll",
+      "programmable_buttons",
+      "onboard_memory",
+      "usb_receiver"
+    ],
+    "specs": {
+      "max_dpi": 26000,
+      "max_polling_hz": 1000
+    },
+    "source_ids": [
+      "km6"
+    ],
+    "sources": [
+      {
+        "id": "km6",
+        "url": "https://www.keychron.com/products/keychron-m6-wireless-mouse",
+        "title": "Keychron M6",
+        "publisher": "Keychron",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Right-hand silhouette, 3395 sensor, premium metal wheel, All Silent switches, 86 g, 26000 DPI, 1000 Hz and side horizontal wheel. Do not transfer 8000-Hz/30000-DPI headline from 3950 variant. Selected 1K Premium Wheel is 86 g, not other variant 78 g.",
+    "variant": "Black Premium Wheel / PixArt 3395 1K / All Silent / M6S-A1",
+    "notes": "Do not transfer 8000-Hz/30000-DPI headline from 3950 variant. Selected 1K Premium Wheel is 86 g, not other variant 78 g.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "keychron-m7-8k",
+    "name": "Keychron M7 8K",
+    "brand": "Keychron",
+    "price": 69.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_displayed_reference_usd",
+    "observed_offer_usd": 69.99,
+    "weight_g": 66,
+    "connection": [
+      "wired",
+      "bluetooth",
+      "2.4ghz"
+    ],
+    "handedness": null,
+    "shape": "ergonomic",
+    "use_cases": [
+      "office",
+      "gaming"
+    ],
+    "features": [
+      "rechargeable",
+      "thumb_rest",
+      "usb_receiver",
+      "glass_tracking"
+    ],
+    "specs": {
+      "max_dpi": 30000,
+      "max_polling_hz": 8000
+    },
+    "source_ids": [
+      "km7"
+    ],
+    "sources": [
+      {
+        "id": "km7",
+        "url": "https://www.keychron.com/products/keychron-m7-wireless-mouse",
+        "title": "Keychron M7",
+        "publisher": "Keychron",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Curved upper surface and thumb rest, 66 g plus/minus 3 g, PixArt 3950, 30000 DPI, 8000-Hz wired/2.4-GHz reporting. Handedness unverified. Glass tracking requires at least 4-mm glass and 1K reporting.",
+    "variant": "Black / PixArt 3950 8K / M7-A23",
+    "notes": "Handedness unverified. Glass tracking requires at least 4-mm glass and 1K reporting.",
+    "checked_on": "2026-10-24"
+  },
+  {
+    "id": "razer-cobra",
+    "name": "Razer Cobra",
+    "brand": "Razer",
+    "price": 39.99,
+    "currency": "USD",
+    "price_basis": "manufacturer_us_launch_msrp_2023-06-29",
+    "observed_offer_usd": null,
+    "weight_g": 58,
+    "connection": [
+      "wired"
+    ],
+    "handedness": "right",
+    "shape": "symmetric",
+    "use_cases": [
+      "gaming"
+    ],
+    "features": [
+      "rgb",
+      "optical_switches",
+      "programmable_buttons",
+      "onboard_memory"
+    ],
+    "specs": {
+      "max_dpi": 8500,
+      "max_polling_hz": 1000
+    },
+    "source_ids": [
+      "cobra",
+      "cobraprice"
+    ],
+    "sources": [
+      {
+        "id": "cobra",
+        "url": "https://mysupport.razer.com/app/answers/detail/a_id/13184/~/razer-cobra-%257C-rz01-0465-support-%2526-faqs",
+        "title": "Razer Cobra support",
+        "publisher": "Razer",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      },
+      {
+        "id": "cobraprice",
+        "url": "https://www.razer.com/newsroom/product-news/the-razer-cobra-pro-and-razer-cobra-emerge-a-distinct-new-mouse-line-thats-perfect-for-play",
+        "title": "Razer Cobra launch announcement",
+        "publisher": "Razer",
+        "source_type": "official_manufacturer",
+        "checked_on": "2026-10-24",
+        "license": "Publisher retains rights; factual fields and original paraphrases only."
+      }
+    ],
+    "source_excerpt": "Wired mouse with right-handed symmetric form, six programmable buttons, optical switches and RGB, 58 g excluding cable, 8500 DPI and 1000 Hz. Price is the June 29 2023 US launch MSRP, NOT a current offer.",
+    "variant": "Black / RZ01-0465",
+    "notes": "Price is the June 29 2023 US launch MSRP, NOT a current offer.",
+    "checked_on": "2026-10-24"
+  }
+]

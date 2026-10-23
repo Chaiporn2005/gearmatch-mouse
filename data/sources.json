@@ -1,0 +1,305 @@
+{
+  "checked_on": "2026-10-24",
+  "currency": "USD",
+  "products": 21,
+  "sources": [
+    {
+      "id": "m100",
+      "url": "https://www.logitech.com/en-us/shop/p/m100-usb-mouse",
+      "title": "Logitech M100",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "m100s",
+      "url": "https://www.logitech.com/en-ae/products/mice/m100-usb-mouse.910-006652.html",
+      "title": "M100 specifications",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "m170",
+      "url": "https://www.logitech.com/en-us/shop/p/m170-wireless-mouse",
+      "title": "Logitech M170",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "m170s",
+      "url": "https://support.logi.com/hc/de/articles/360023301394-M170-M171-B170-Technische-Daten",
+      "title": "M170/M171/B170 specifications",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "m185",
+      "url": "https://www.logitech.com/en-us/shop/p/m185-wireless-mouse",
+      "title": "Logitech M185",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "m185s",
+      "url": "https://support.logi.com/hc/en-my/articles/360023241934-M185-Technical-Specifications",
+      "title": "M185 specifications",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "pebble",
+      "url": "https://www.logitech.com/en-us/shop/p/pebble-2-m350s-wireless-mouse",
+      "title": "Pebble Mouse 2 M350s",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "pebbles",
+      "url": "https://www.logitech.com/en-sa/products/mice/pebble-2-m350s-wireless-mouse.910-007015.html",
+      "title": "Pebble Mouse 2 M350s specifications",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "lift",
+      "url": "https://www.logitech.com/en-us/shop/p/lift-vertical-ergonomic-mouse",
+      "title": "Logitech Lift",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "liftleft",
+      "url": "https://www.logitech.com/en-us/shop/p/lift-vertical-ergonomic-mouse.910-006467",
+      "title": "Logitech Lift Left",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "lifts",
+      "url": "https://www.logitech.com/en-ae/products/mice/lift-vertical-ergonomic-mouse.html",
+      "title": "Lift specifications",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "vertical",
+      "url": "https://www.logitech.com/en-us/shop/p/mx-vertical-ergonomic-mouse",
+      "title": "Logitech MX Vertical",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "verticals",
+      "url": "https://support.logi.com/hc/en-001/articles/360023303394-MX-Vertical-Technical-Specifications",
+      "title": "MX Vertical specifications",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "verticalhand",
+      "url": "https://www.logitech.com/en-gb/discover/a/ergonomic-mouse-tips",
+      "title": "Logitech ergonomic mouse tips",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "g203",
+      "url": "https://www.logitechg.com/en-us/shop/p/g203-lightsync-rgb-gaming-mouse",
+      "title": "G203 LIGHTSYNC",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "g203s",
+      "url": "https://www.logitechg.com/en-gb/products/gaming-mice/g203-lightsync-rgb-gaming-mouse.html?searchclick=logi&sp=2",
+      "title": "G203 specifications",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "g305",
+      "url": "https://www.logitechg.com/en-us/shop/p/g305-lightspeed-wireless-gaming-mouse",
+      "title": "G305 LIGHTSPEED",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "g305s",
+      "url": "https://www.logitechg.com/en-us/products/gaming-mice/g305-lightspeed-wireless-gaming-mouse.910-005280.html?bvstate=pg%3A2%2Fct%3Ar",
+      "title": "G305 specifications",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "g502",
+      "url": "https://www.logitechg.com/en-us/shop/p/g502-hero-gaming-mouse",
+      "title": "G502 HERO",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "g502s",
+      "url": "https://www.logitechg.com/en-us/products/gaming-mice/g502-hero-gaming-mouse.html?bvstate=pg%3A5%2Fct%3Ar",
+      "title": "G502 HERO specifications",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "m720",
+      "url": "https://www.logitech.com/en-us/shop/p/m720-triathlon",
+      "title": "M720 Triathlon",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "m720s",
+      "url": "https://www.logitech.com/en-ae/products/mice/m720-triathlon.html",
+      "title": "M720 specifications",
+      "publisher": "Logitech",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "km1",
+      "url": "https://www.keychron.com/products/keychron-m1-wireless-mouse",
+      "title": "Keychron M1",
+      "publisher": "Keychron",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "km2",
+      "url": "https://www.keychron.com/products/keychron-m2-wireless-mouse",
+      "title": "Keychron M2",
+      "publisher": "Keychron",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "km2mini",
+      "url": "https://www.keychron.com/products/keychron-m2-mini-wireless-mouse",
+      "title": "Keychron M2-MINI",
+      "publisher": "Keychron",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "km3",
+      "url": "https://www.keychron.com/products/keychron-m3-wireless-mouse",
+      "title": "Keychron M3",
+      "publisher": "Keychron",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "km3mini",
+      "url": "https://www.keychron.com/products/keychron-m3-mini-wireless-mouse",
+      "title": "Keychron M3-MINI",
+      "publisher": "Keychron",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "km4",
+      "url": "https://www.keychron.com/products/keychron-m4-wireless-mouse",
+      "title": "Keychron M4",
+      "publisher": "Keychron",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "km5",
+      "url": "https://www.keychron.com/products/keychron-m5-wireless-ergonomic-mouse",
+      "title": "Keychron M5",
+      "publisher": "Keychron",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "km6",
+      "url": "https://www.keychron.com/products/keychron-m6-wireless-mouse",
+      "title": "Keychron M6",
+      "publisher": "Keychron",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "km7",
+      "url": "https://www.keychron.com/products/keychron-m7-wireless-mouse",
+      "title": "Keychron M7",
+      "publisher": "Keychron",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "cobra",
+      "url": "https://mysupport.razer.com/app/answers/detail/a_id/13184/~/razer-cobra-%257C-rz01-0465-support-%2526-faqs",
+      "title": "Razer Cobra support",
+      "publisher": "Razer",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    },
+    {
+      "id": "cobraprice",
+      "url": "https://www.razer.com/newsroom/product-news/the-razer-cobra-pro-and-razer-cobra-emerge-a-distinct-new-mouse-line-thats-perfect-for-play",
+      "title": "Razer Cobra launch announcement",
+      "publisher": "Razer",
+      "source_type": "official_manufacturer",
+      "checked_on": "2026-10-24",
+      "license": "Publisher retains rights; factual fields and original paraphrases only."
+    }
+  ],
+  "method": "Manual research of official shop, support, specifications and launch pages; original factual paraphrases, not archived HTML."
+}

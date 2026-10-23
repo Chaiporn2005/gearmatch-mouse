@@ -12,3 +12,7 @@ site/.git/
 site/.env*
 site/.dev.vars
 *.tar.gz
+docs/rendered/
+site/.dev.vars*
+site/.tsbuildinfo
+site/tsconfig.tsbuildinfo
