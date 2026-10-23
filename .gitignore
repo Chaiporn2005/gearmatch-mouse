@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+site/node_modules/
+site/dist/
+site/.sites-runtime/
+site/.wrangler/
+site/.git/
+site/.env*
+site/.dev.vars
+*.tar.gz
