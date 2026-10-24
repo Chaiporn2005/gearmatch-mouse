@@ -8,6 +8,14 @@ This is an edited walkthrough using **actual UI stills** from the working local 
 
 The successful recommendation and the no-match answer were obtained from the real class proxy with `gemma-4-E4B-it`. No saved response JSON was substituted into the application. The captured DOM transcripts preserve those outcomes. No API key or proxy URL appears in the captures.
 
+## Edited cut
+
+[GearMatch-demo-edit.mp4](GearMatch-demo-edit.mp4) is a faster re-edit of the same walkthrough, about 5 minutes 34 seconds. It reuses the original narration audio and UI captures. Long pauses are shortened, the camera moves to the part of each capture being described, and Thai captions are burned in. It adds a short opening montage, chapter cards and a soft synthesized music bed.
+
+Chapters 04–06 are animated cards that show the same measured numbers as the original technical cards. No app response or measurement is changed. The closing card repeats the disclosure about edited stills and synthetic narration.
+
+Rebuild with `python scripts/edit_demo.py` (needs ffmpeg, Pillow, numpy and Google Chrome for Thai typesetting). Add `--no-music` to leave out the music bed.
+
 ## Contents
 
 1. Product problem and the 21-SKU corpus.
