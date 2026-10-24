@@ -1,0 +1,97 @@
+{
+  "format": "Edited actual UI stills + measured-data cards; synthetic Thai narration",
+  "voice": "Google Thai via gTTS",
+  "audio_speed": 1.3,
+  "captions": "Thai; editorial phrase timing (not forced alignment)",
+  "model": "gemma-4-E4B-it",
+  "ui_commit": "7bf7d62c34109081c177d64e7cda435e86d72718",
+  "duration_seconds": 335.977,
+  "video_sha256": "465a3cc66c4282062ce5d136dbe35bc0417dc241c451c64d988d31c9e70d868d",
+  "chapters": [
+    {
+      "id": "01-introduction",
+      "title": "GearMatch / Mouse Lab",
+      "caption": "21 mouse SKUs / manufacturer evidence / Thai + English",
+      "images": [
+        "01-hero.jpg",
+        "02-catalog.jpg"
+      ],
+      "duration": 39.141583,
+      "start": 0.0
+    },
+    {
+      "id": "02-live-answer",
+      "title": "01 / A grounded live answer",
+      "caption": "Quiet office mouse / Bluetooth / budget <= USD 30",
+      "images": [
+        "03-success-input.jpg",
+        "04-success-answer.jpg"
+      ],
+      "duration": 40.878,
+      "start": 39.141583
+    },
+    {
+      "id": "03-evidence-comparison",
+      "title": "02 / Evidence and comparison",
+      "caption": "Read variant notes / compare attributes / preserve unknowns",
+      "images": [
+        "05-evidence.jpg",
+        "06-compare.jpg",
+        "07-compare-specs.jpg"
+      ],
+      "duration": 39.841792,
+      "start": 80.019583
+    },
+    {
+      "id": "04-abstention",
+      "title": "03 / No valid match is a valid outcome",
+      "caption": "Left-handed + Bluetooth + <= 80 g + <= USD 100",
+      "images": [
+        "08-negative-answer.jpg"
+      ],
+      "duration": 37.521958,
+      "start": 119.861375
+    },
+    {
+      "id": "05-architecture",
+      "title": "04 / A bounded tool loop",
+      "caption": "Validated tools / retrieval before answers / five model turns maximum",
+      "images": [
+        "10-architecture.png"
+      ],
+      "duration": 43.742167,
+      "start": 157.383333
+    },
+    {
+      "id": "06-evaluation",
+      "title": "05 / Measured retrieval improvement",
+      "caption": "30 author-curated cases / 20 dev + 10 held-out / retrieval only",
+      "images": [
+        "11-evaluation.png"
+      ],
+      "duration": 45.696875,
+      "start": 201.1255
+    },
+    {
+      "id": "07-observed-failure",
+      "title": "06 / A real failure and its repair",
+      "caption": "Source IDs were confused with product IDs / validation caught it",
+      "images": [
+        "12-failure.png"
+      ],
+      "duration": 40.707458,
+      "start": 246.822375
+    },
+    {
+      "id": "08-limitations",
+      "title": "07 / Limits, source and reproducibility",
+      "caption": "github.com/Chaiporn2005/gearmatch-mouse / source + data + report + demo",
+      "images": [
+        "09-about.jpg",
+        "13-outro.png"
+      ],
+      "duration": 48.446792,
+      "start": 287.529833
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+- banner:
+  - link "Gear Match MOUSE LAB":
+    - /url: /
+    - text: Gear
+    - generic: Match
+    - generic: MOUSE LAB
+  - navigation:
+    - button "Discover"
+    - button "Compare (2)"
+    - button "About the data"
+  - text: Class proxy connected
+  - generic: 21 MICE
+- main:
+  - heading "GearMatch — find your next mouse" [level=1]
+  - generic: M
+  - generic: O
+  - generic: U
+  - generic: S
+  - generic: E
+  - term: CURSOR (PX)
+  - definition:
+    - generic: 0877 × 0609
+  - term: POINTER EVENTS / SEC
+  - definition:
+    - generic: "0"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: Hz
+  - term: CLICKS
+  - definition:
+    - generic: "1"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+  - paragraph:
+    - text: GearMatch matches you with a mouse by
+    - emphasis: grip°
+    - text: ","
+    - emphasis: weight°
+    - text: and
+    - emphasis: budget°
+    - text: ", with every spec traced to the maker."
+  - paragraph: เมาส์ที่ใช่ เริ่มจากสิ่งที่คุณต้องการ ค้นหา เปรียบเทียบ และเลือกจากสเปกที่มีแหล่งอ้างอิงจริง
+  - link "↳ Find my match · 21 mice":
+    - /url: "#workspace"
+  - complementary:
+    - heading "Your mouse, your way" [level=2]
+    - paragraph: บอกเรา คุณจะใช้เมาส์ทำอะไร
+    - generic: ความต้องการเมาส์
+    - textbox "ความต้องการเมาส์":
+      - /placeholder: เช่น ทำงานทั้งวัน อยากได้เมาส์เงียบ ใช้กับโน้ตบุ๊กผ่าน Bluetooth...
+      - text: เมาส์สำหรับคนถนัดซ้าย ใช้ Bluetooth น้ำหนักไม่เกิน 80 กรัม งบไม่เกิน 100 USD
+    - button "↗ เมาส์เงียบสำหรับทำงาน ใช้ Bluetooth":
+      - generic: ↗
+      - text: เมาส์เงียบสำหรับทำงาน ใช้ Bluetooth
+    - button "↗ เมาส์เล่นเกมเบา งบ 70 USD":
+      - generic: ↗
+      - text: เมาส์เล่นเกมเบา งบ 70 USD
+    - button "↗ เมาส์แนวตั้งสำหรับคนถนัดซ้าย":
+      - generic: ↗
+      - text: เมาส์แนวตั้งสำหรับคนถนัดซ้าย
+    - text: YOUR PREFERENCES
+    - button "รีเซ็ตตัวกรอง":
+    - text: งบอ้างอิงสูงสุด
+    - strong: $100.00 USD
+    - slider "งบอ้างอิง USD": "100"
+    - generic: $10
+    - generic: $150
+    - text: การเชื่อมต่อ
+    - combobox "การเชื่อมต่อ":
+      - option "ทุกแบบ"
+      - option "Bluetooth" [selected]
+      - option "2.4 GHz"
+      - option "มีสาย / USB"
+    - text: น้ำหนักสูงสุด
+    - combobox "น้ำหนักสูงสุด":
+      - option "ไม่จำกัด"
+      - option "60 g"
+      - option "80 g" [selected]
+      - option "100 g"
+    - text: มือที่ถนัด
+    - combobox "มือที่ถนัด":
+      - option "ไม่จำกัด"
+      - option "มือขวา"
+      - option "มือซ้าย" [selected]
+      - option "ทั้งสองมือ"
+    - text: การใช้งาน
+    - combobox "การใช้งาน":
+      - option "ทุกประเภท" [selected]
+      - option "ทำงาน"
+      - option "เล่นเกม"
+      - option "พกพา"
+    - button "Find my match":
+      - text: Find my match
+    - button "ค้นเฉพาะ catalog โดยไม่ใช้โมเดล":
+      - text: ค้นเฉพาะ catalog โดยไม่ใช้โมเดล
+    - paragraph: ราคาอ้างอิง USD ไม่ใช่ราคาไทยหรือราคาปัจจุบัน ไม่มีการซื้อขายผ่านแอป
+  - generic: THE SHORTLIST STARTS HERE
+  - heading "Good gear. Clear choices." [level=2]
+  - generic: 0 matches
+  - button "All mice"
+  - button "Quiet clicks"
+  - button "Under 60g"
+  - button "Vertical"
+  - generic: 3 brands · curated specs
+  - strong: Your GearMatch shortlist
+  - generic: gemma-4-E4B-it
+  - button "ปิดผลลัพธ์":
+  - paragraph: ขออภัยค่ะ ขณะนี้ไม่พบเมาส์ที่ตรงตามเงื่อนไขทั้งหมดที่คุณระบุ (ถนัดซ้าย, Bluetooth, น้ำหนักไม่เกิน 80 กรัม, งบไม่เกิน 100 USD) ในฐานข้อมูลค่ะ
+  - paragraph: ไม่พบผลิตภัณฑ์ที่ตรงตามเงื่อนไขทั้งหมดที่ระบุ
+  - generic "เส้นทางการค้นข้อมูล · 1 tool calls"
+  - heading "ยังไม่มีรุ่นที่ตรงทุกเงื่อนไข" [level=3]
+  - paragraph: เราไม่เติมสเปกที่ไม่ทราบ ลองลดข้อจำกัดแล้วค้นใหม่
+  - button "รีเซ็ตตัวกรอง"
+- contentinfo:
+  - generic: GearMatch / MOUSE LAB
+  - paragraph: A little more evidence. A lot less guesswork.
+  - generic: DATA SNAPSHOT · OCT 2026
+- text: 2 mice on your shortlist
+- button "Compare now":
+  - text: Compare now

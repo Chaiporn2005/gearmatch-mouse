@@ -17,3 +17,4 @@ site/.dev.vars*
 site/.tsbuildinfo
 site/tsconfig.tsbuildinfo
 .DS_Store
+.demo-build/

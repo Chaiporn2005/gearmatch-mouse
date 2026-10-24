@@ -2,6 +2,10 @@
 
 An original mouse-domain capstone: ask in Thai or English, apply explicit product constraints, compare up to three mice and inspect manufacturer evidence. This is not a reskin of the course reference corpus.
 
+## Demonstration
+
+[Watch the Thai-narrated demo](https://raw.githubusercontent.com/Chaiporn2005/gearmatch-mouse/main/docs/demo/GearMatch-demo.mp4) (about 5:36), or see the [transcript, captions and production notes](docs/demo/README.md). It uses edited actual UI stills, measured-data cards and synthetic Thai narration; it is not a continuous screen recording.
+
 ## Quick start
 
 Python3.12+ and Node22.13+.

@@ -2,6 +2,8 @@
 
 Target: 3-6 minutes. Use a real running class proxy. Do not replace live answers with recorded JSON.
 
+An edited Thai-narrated walkthrough is now available in [demo/](demo/README.md), with an MP4, transcript, subtitles and provenance. It uses actual UI stills and synthetic narration, not a continuous recording. The outline below remains a separate guide for an in-person or student-recorded live defence.
+
 1. 0:00-0:40 - Explain the user problem,21-SKU mouse-domain corpus and USD reference-price limitation. The drawings are schematic, not product photography.
 2. 0:40-1:30 - Ask in Thai for a quiet office Bluetooth mouse under USD30. Set the explicit filters. Show the real answer, tool trace, Pebble76g fact and manufacturer source links. Explain the optional Bolt receiver is not included.
 3. 1:30-2:10 - Add Pebble and another mouse to Compare. Show price, connection and unknown attributes. Avoid claiming unknown means false.
